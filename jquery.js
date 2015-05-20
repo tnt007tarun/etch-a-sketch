@@ -22,7 +22,6 @@ $('button').on('click', function() {
 	var newside=prompt("How many squares per side?");
 	$('tr').remove();
 	$(side).val('newside');
-	var num = 800/newside;
 
 	for (var k=0; k<newside; k++) {
 		$('#tab').append('<tr><td></td></tr>');
