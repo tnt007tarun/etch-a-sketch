@@ -1,5 +1,5 @@
 #head {
-	font-size:large;
+	font-size:xx-large;
 	font-family:Helvetica;
 	font-style: bold;
 	font-weight: 700;
@@ -9,7 +9,7 @@
 #container {
   height: 800px;
   width: 800px;
-  background-color:#FFFFEB;
+  background-color:#F9F9F9;
   margin:auto;
 }
 
@@ -29,4 +29,14 @@ td {
 
 #reset {
 	text-align:center;
+}
+
+button {
+	border-radius: 28px;
+	font-family: Arial;
+	color: #FFF;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	background-image: linear-gradient(to bottom, #3CB0FD, #3498DB);
+	text-decoration: none;
 }
