@@ -22,6 +22,7 @@ $('button').on('click', function() {
 	var newside=prompt("How many squares per side?");
 	$('tr').remove();
 	$(side).val('newside');
+	var num = 800/newside;
 
 	for (var k=0; k<newside; k++) {
 		$('#tab').append('<tr><td></td></tr>');
@@ -31,8 +32,10 @@ $('button').on('click', function() {
 		$('tr').append($('<td></td>'));
 	}
 
-	$('tr').css("height", "8");
-	$('td').css({"width" : "8", "background-color" : "#FFFFEB"});
+var n = (800)/newside;
+
+	$('tr').css("height", n);
+	$('td').css({"width" : n, "background-color" : "#FFFFEB"});
 
 		$("td").on('mouseenter', function() {
 		$(this).css({"background-color": "black"});
