@@ -11,11 +11,13 @@ $(document).ready (function () {
 	}
 
 	$("td").on('mouseenter', function() {
-		$(this).css({"background-color": "black"});
+		var randColor = '#'+Math.floor(Math.random()*16777215).toString(16);
+		$(this).css({"background-color": randColor});
 	});
 
 	$("td").on('mouseleave', function() {
-		$(this).css({"background-color": "#1A1A19"});
+		var randColor = '#'+Math.floor(Math.random()*16777215).toString(16);
+		$(this).css({"background-color": randColor});
 	});
 
 $('button').on('click', function() {
@@ -35,16 +37,15 @@ $('button').on('click', function() {
 var n = (800)/newside;
 
 	$('tr').css("height", n);
-	$('td').css({"width" : n, "background-color" : "#FFFFEB"});
+	$('td').css({"width" : n, "background-color" : "#F9F9F9"});
 
 		$("td").on('mouseenter', function() {
-		$(this).css({"background-color": "black"});
+		var randColor = '#'+Math.floor(Math.random()*16777215).toString(16);
+		$(this).css({"background-color": randColor});
 	});
 
 	$("td").on('mouseleave', function() {
-		$(this).css({"background-color": "#1A1A19"});
+		var randColor = '#'+Math.floor(Math.random()*16777215).toString(16);
+		$(this).css({"background-color": randColor});
 	});
 });
-
-});
-	
