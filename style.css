@@ -1,5 +1,32 @@
+#head {
+	font-size:large;
+	font-family:Helvetica;
+	font-style: bold;
+	font-weight: 700;
+	text-align: center;
+}
+
 #container {
-  height: 500px;
-  width: 500px;
-  background-color:red;
+  height: 800px;
+  width: 800px;
+  background-color:#FFFFEB;
+  margin:auto;
+}
+
+table, td {
+	border:0px;
+	border-collapse: collapse;
+}
+
+tr {
+	margin:auto;
+	height:50px;
+}
+
+td {
+	width:50px;
+}
+
+#reset {
+	text-align:center;
 }
